@@ -1,0 +1,9 @@
+$spinner-stroke-default-color: #000;
+
+svg.arc {
+  > path {
+    fill: none;
+    stroke: $spinner-stroke-default-color;
+    stroke-width: 3px;
+  }
+}

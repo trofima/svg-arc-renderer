@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG Arc</title>
+
+    <link rel="stylesheet" href="dist/SVGArc.min.css">
+</head>
+<body>
+    <div id="arcContainer"></div>
+
+    <script src="dist/SVGArc.min.js"></script>
+
+    <script>
+        var arcContainer = document.getElementById('arcContainer');
+
+        arcContainer.innerHTML = new SVGArc({
+            canvasSize: 300,
+            radius: 100,
+            angle: 270
+        }).render();
+    </script>
+</body>
+</html>
