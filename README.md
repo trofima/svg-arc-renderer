@@ -10,10 +10,12 @@ Typescript declarations can be found [here](/dist/SVGArc.d.ts).
 Example
 -------
 
+```javascript
 var arcContainer = document.createElement('div');
 
-`arcContainer.innerHTML = new SVGArc({
+arcContainer.innerHTML = new SVGArc({
     canvasSize: 300,
     radius: 100,
     angle: 270
-}).render();`
+}).render();
+```
