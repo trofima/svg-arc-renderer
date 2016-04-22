@@ -66,5 +66,7 @@ gulp
 
     .task('test', ['compile-ts'], test)
 
-    .task('default', ['build-js', 'build-css', 'declare-ts']);
+    .task('build', ['build-js', 'build-css', 'declare-ts'])
+
+    .task('default', ['build']);
 
