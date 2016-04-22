@@ -5,7 +5,7 @@
   "typings": "./dist/SVGArc.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trofima/SVGArc.git"
+    "url": "git+https://github.com/trofima/svg-arc-renderer.git"
   },
   "scripts": {
     "build": "gulp",
@@ -16,7 +16,7 @@
     "arc",
     "svgArc"
   ],
-  "homepage": "https://github.com/trofima/SVGArc#SVGArc",
+  "homepage": "https://github.com/trofima/svg-arc-renderer#svg-arc-renderer",
   "author": "Serhii Trofimets (aka Fima) azarija@gmail.com",
   "license": "ISC",
   "devDependencies": {
