@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "gulp",
-    "test": "gulp default test"
+    "test": "gulp test"
   },
   "keywords": [
     "svg",
