@@ -12,9 +12,9 @@
     "test": "gulp test"
   },
   "keywords": [
-    "svg",
+    "svg-arc",
     "arc",
-    "svgArc"
+    "svg"
   ],
   "homepage": "https://github.com/trofima/svg-arc-renderer#svg-arc-renderer",
   "author": "Serhii Trofimets (aka Fima) azarija@gmail.com",
